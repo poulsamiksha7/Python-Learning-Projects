@@ -1,5 +1,5 @@
 def stress_level_management():
-    stress_level_habits = input("What are your hobbies? ").strip().lower().split(",")
+    stress_level_habits = input("What are your common habits when you feel stressed? (separate them with commas)").strip().lower().split(",")
 
     habits_score = {
         "coffee": 2,

@@ -1,7 +1,7 @@
 from datetime import datetime
 import random
 
-user_input=input("How are you feeling Today?\n Happy/Sad/Tired/Anxious \n  Choose any 1 from Above ").lower()
+user_input=input("How are you feeling Today?\n Happy/Sad/Tired/Anxious \n  Choose any 1 from Above ").strip().lower()
 
 happy=["Choose joy today","Smile: it's free therapy","Chase sunsets, not storms","Today is a good day for a good day"]
 sad=["Grief is the price we pay for love","And thus the heart will break, yet brokenly live on","The silence in this room screams your name","Sometimes, when one person is missing, the whole world seems depopulated"]

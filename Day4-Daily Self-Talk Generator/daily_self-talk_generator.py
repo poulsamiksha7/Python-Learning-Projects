@@ -43,8 +43,8 @@ print("💬 Affirmation for you:")
 print(affirmation)
 
 
-energy_level = int(input("What is your Energy Level today? (1–10): "))
-sleep_level = int(input("What is your Sleep Level today? (1–10): "))
+energy_level = int(input("What is your Energy Level today? (1-10): "))
+sleep_level = int(input("What is your Sleep Level today? (1-10): "))
 
 daily_power_level = (energy_level + sleep_level) * 5
 

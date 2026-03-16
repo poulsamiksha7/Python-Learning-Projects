@@ -24,6 +24,6 @@ print("Your entry has been saved to journal.txt")
 
 date_only=datetime.now().strftime("%Y-%m-%d")
 with open("mood.csv","a") as csv_file:
-    csv_file.write(f"\n{date_only}\n,{mood}\n,{entry}\n")
+    csv_file.write(f"\n{date_only},\n{mood},\n{entry}\n")
 
 print("Your data has been saved to mood.csv")

@@ -49,7 +49,5 @@ class PersonalityQuiz:
 quiz = PersonalityQuiz()
 quiz.take_quiz()
 quiz.get_result()
-        
-
 
               
